@@ -1,4 +1,3 @@
-import self as self
 from flask import Flask, render_template, request
 import pickle
 import sklearn

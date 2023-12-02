@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+['Размер сварочного шва']
+<form action="" method = "post">
+  <p>
+    <label>IW</label>
+    <input type="number" name = "IW">
+  </p>
+  <p>
+    <label>IF</label>
+    <input type="number" name = "IF">
+  </p>
+  <p>
+    <label>VW</label>
+    <input type="number" name = "VW">
+  </p>
+  <p>
+    <label>FP</label>
+    <input type="number" name = "FP">
+  </p>
+  <p>
+    <input type="submit">
+  </p>
+</form>
+{% if message%}
+<p>{{ message}}</p>
+{% endif%}
+</body>
+</html>

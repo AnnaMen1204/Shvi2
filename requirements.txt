@@ -1,5 +1,5 @@
 ﻿Flask
 Gunicorn
 LinearRegression
-sklearn
+scikit-learn
 pickle
